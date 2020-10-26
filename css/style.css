@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.body {
+  min-width: 980px;
+  font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.slider {
+  position: relative;
+  min-width: 980px;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.slider .header {
+  position: absolute;
+  bottom: 53px;
+  z-index: 99;
+  width: 100%;
+  background-color: pink;
+}
+
+.slider .header__parts {
+  width: 980px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.slider .header__parts__logo {
+  float: left;
+  width: 160px;
+  background-color: #015db2;
+  padding: 14px 0;
+  margin-left: -100%;
+  padding-left: 100%;
+}
+
+.slider .header__parts__menu {
+  display: table;
+  padding-left: 36px;
+  overflow: hidden;
+}
+
+.slider .header__parts__menu__list li {
+  float: left;
+}
+
+.slider .header__parts__menu__list li a {
+  width: 112px;
+  height: 80px;
+  display: block;
+  text-indent: -9999px;
+  background-image: url(https://pocarisweat.jp/shared/images/header_gnav_pc_01.gif);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.slider .header__parts__menu__list li + li a {
+  background-position: -112px 0;
+}
+
+.slider .header__parts__menu__list li + li + li a {
+  background-position: -224px 0;
+}
+
+.slider .header__parts__menu__list li + li + li + li a {
+  background-position: -336px 0;
+}
+
+.slider .header__parts__menu__list li + li + li + li + li a {
+  background-position: -448px 0;
+}
+
+.slider .header__parts__menu__list li + li + li + li + li + li a {
+  background-position: -560px 0;
+}
+
+.slider .header__parts__menu__list li + li + li + li + li + li + li a {
+  background-position: -672px 0;
+}
+
+.slider .header__parts__parts:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.slider .header__parts__news {
+  background-color: #091E4E;
+}
+/*# sourceMappingURL=style.css.map */

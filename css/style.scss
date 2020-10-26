@@ -1,0 +1,89 @@
+.body{
+  min-width: 980px;
+  font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.slider{
+  position: relative;
+  min-width: 980px;
+  min-height: 700px;
+  overflow: hidden;
+  .header{
+    position: absolute;
+    bottom: 53px;
+    z-index: 99;
+    width: 100%;
+    background-color: pink;
+    &__parts{
+      width: 980px;
+      height: 80px;
+      margin: 0 auto;
+      &__logo{
+        float: left;
+        width: 160px;
+        background-color: #015db2;
+        padding: 14px 0;
+        margin-left: -100%;
+        padding-left: 100%;
+        // text-align: left;
+      }
+      &__menu{
+        display: table;
+        padding-left: 36px;
+        overflow: hidden;
+        &__list{
+          li{
+            float: left;
+            a{
+              width: 112px;
+              height: 80px;
+              display: block;
+              text-indent: -9999px;
+              background-image: url(https://pocarisweat.jp/shared/images/header_gnav_pc_01.gif);
+              background-repeat: no-repeat;
+              overflow: hidden;
+            }
+          }
+          li + li{
+            a{
+              background-position: -112px 0;
+            }
+          }
+          li + li +li{
+            a{
+              background-position: -224px 0;
+            }
+          }
+          li + li +li +li{
+            a{
+              background-position: -336px 0;
+            }
+          }
+          li + li +li +li +li{
+            a{
+              background-position: -448px 0;
+            }
+          }
+          li + li +li +li + li + li{
+            a{
+              background-position: -560px 0;
+            }
+          }
+          li + li +li +li + li + li + li{
+            a{
+              background-position: -672px 0;
+            }
+          }
+        }
+      }
+      &__parts:after{
+        content: "";
+        clear: both;
+        display: block;
+      }
+      &__news{
+        background-color: #091E4E;
+      }
+    }
+  }
+}
