@@ -3,6 +3,14 @@
   font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
+.clearfix{
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
 .slider{
   position: relative;
   min-width: 980px;
@@ -22,7 +30,7 @@
         float: left;
         width: 160px;
         background-color: #015db2;
-        padding: 14px 0;
+        padding: 8px 0;
         margin-left: -100%;
         padding-left: 100%;
         // text-align: left;
@@ -40,7 +48,7 @@
               display: block;
               text-indent: -9999px;
               background-image: url(https://pocarisweat.jp/shared/images/header_gnav_pc_01.gif);
-              background-repeat: no-repeat;
+              // background-repeat: no-repeat;
               overflow: hidden;
             }
           }
@@ -76,13 +84,28 @@
           }
         }
       }
-      &__parts:after{
-        content: "";
-        clear: both;
-        display: block;
-      }
-      &__news{
-        background-color: #091E4E;
+    }
+    &__news{
+      background-color: #091E4E;
+      &__content{
+        color: white;
+        width: 820px;
+        margin: 0 auto;
+        padding: 12px 0 12px 160px;
+        &__title{
+          font-size: 0.8em;
+          font-weight: bold;
+          margin-right: 10px;
+        }
+        &__date{
+          font-size: 0.714em;
+          padding: 3px 5px;
+          margin-right: 10px;
+          background-color: #6b7b97;
+        }
+        &__text{
+          font-size: 0.714em;
+        }
       }
     }
   }
