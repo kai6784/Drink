@@ -4,16 +4,10 @@
   font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .slider {
   position: relative;
   min-width: 980px;
-  min-height: 700px;
+  min-height: 708px;
   overflow: hidden;
 }
 
@@ -109,5 +103,39 @@
 
 .slider .header__news__content__text {
   font-size: 0.714em;
+}
+
+.slider .slides {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  list-style: none;
+  position: relative;
+}
+
+.slider .slides li {
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .slides li img {
+  width: 100%;
+}
+
+.slider .arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.slider .arrows__arrow__next {
+  right: 24px;
+  position: absolute;
+}
+
+.slider .arrows__arrow__back {
+  left: 24px;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

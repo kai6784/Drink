@@ -3,18 +3,18 @@
   font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
-.clearfix{
-  &:after{
-    content: "";
-    display: block;
-    clear: both;
-  }
-}
+// .clearfix{
+//   &:after{
+//     content: "";
+//     display: block;
+//     clear: both;
+//   }
+// }
 
 .slider{
   position: relative;
   min-width: 980px;
-  min-height: 700px;
+  min-height: 708px;
   overflow: hidden;
   .header{
     position: absolute;
@@ -106,6 +106,36 @@
         &__text{
           font-size: 0.714em;
         }
+      }
+    }
+  }
+  .slides{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    list-style: none;
+    position:relative;
+    li{
+      float: left;
+      overflow: hidden;
+      position: relative;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .arrows{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    &__arrow{
+      &__next{
+        right: 24px;
+        position: absolute;
+      }
+      &__back{
+        left: 24px;
+        position: absolute;
       }
     }
   }
