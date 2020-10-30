@@ -207,6 +207,7 @@
   .content1{
     width: 980px;
     margin: 0 auto;
+    padding-bottom: 70px;
     h2{
       color: #015db2;
       font-size: 25px;
@@ -236,11 +237,12 @@
           .text{
             display: block;
             margin-top: 10px;
-            padding: 0 5px 5px 15px;
-            font-size: 12px;
+            margin-left: 5px;
+            padding: 0 5px 5px 10px;
+            font-size: 13px;
             text-align:justify;
             color: gray;
-            background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) no-repeat;
+            background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 2px no-repeat;
             background-size: 6px auto;
           }
         }
@@ -248,7 +250,7 @@
     }
     .prev-arrow2{
       position: absolute;
-      top: 0;
+      top: -70px;
       bottom: 0;
       left: 0;
       margin: auto;
@@ -265,6 +267,13 @@
       right: 18%;
       border: none;
       background: url(https://pocarisweat.jp/images/home_arw_03.png);
+    }
+  }
+  .content2{
+    background-image: url(https://pocarisweat.jp/images/home_bg_01.jpg);
+    .tabs__wrapper{
+      width: 980px;
+      margin: 0 auto;
     }
   }
 }
