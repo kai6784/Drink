@@ -165,7 +165,7 @@
 
 .slider .slides .slide-dots {
   bottom: 202px;
-  left: 45%;
+  left: 43%;
   z-index: 999;
   position: absolute;
 }
@@ -199,7 +199,7 @@
 .slider .scroll {
   position: absolute;
   bottom: 15px;
-  left: 50%;
+  left: 48%;
 }
 
 .slider .scroll img {
