@@ -115,7 +115,6 @@
     width: 100%;
     li{
       float: left;
-      overflow: hidden;
       width: auto;
       display: block;
       position: relative;
@@ -166,6 +165,7 @@
       z-index: 999;
       position: absolute;
       li{
+        display: inline-block;
         margin: 0 10px;
         width: 30px;
         height: 30px;
@@ -197,6 +197,50 @@
     img{
       width: 55px;
       height: 24px;
+    }
+  }
+}
+
+.contents{
+  text-align: center;
+  background-color: #fff;
+  width: 980px;
+  overflow: hidden;
+  .content1{
+    width: 980px;
+    margin: 0 auto;
+    padding: 70px 0 65px;
+    h2{
+      color: #015db2;
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 70px;
+      margin-bottom: 30px;
+      .under{
+        border-bottom: solid 3px #015db2;
+      }
+    }
+    .box__wrapper{
+      max-width: 820px;
+      margin: 0 auto;
+      position: relative;
+      .box__slider{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        li{
+          float: left;
+          overflow: hidden;
+          width: auto;
+          display: block;
+          position: relative;
+          img{
+            width: 100px;
+            height: 85px;
+          }
+        }
+      }
     }
   }
 }

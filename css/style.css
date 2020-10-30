@@ -115,7 +115,6 @@
 
 .slider .slides li {
   float: left;
-  overflow: hidden;
   width: auto;
   display: block;
   position: relative;
@@ -173,6 +172,7 @@
 }
 
 .slider .slides .slide-dots li {
+  display: inline-block;
   margin: 0 10px;
   width: 30px;
   height: 30px;
@@ -206,5 +206,56 @@
 .slider .scroll img {
   width: 55px;
   height: 24px;
+}
+
+.contents {
+  text-align: center;
+  background-color: #fff;
+  width: 980px;
+  overflow: hidden;
+}
+
+.contents .content1 {
+  width: 980px;
+  margin: 0 auto;
+  padding: 70px 0 65px;
+}
+
+.contents .content1 h2 {
+  color: #015db2;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.contents .content1 h2 .under {
+  border-bottom: solid 3px #015db2;
+}
+
+.contents .content1 .box__wrapper {
+  max-width: 820px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contents .content1 .box__wrapper .box__slider {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.contents .content1 .box__wrapper .box__slider li {
+  float: left;
+  overflow: hidden;
+  width: auto;
+  display: block;
+  position: relative;
+}
+
+.contents .content1 .box__wrapper .box__slider li img {
+  width: 100px;
+  height: 85px;
 }
 /*# sourceMappingURL=style.css.map */
