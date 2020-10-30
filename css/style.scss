@@ -203,11 +203,12 @@
 .contents{
   text-align: center;
   background-color: #fff;
-  position: relative;
+  // position: relative;
   .content1{
     width: 980px;
     margin: 0 auto;
     padding-bottom: 70px;
+    position: relative;
     h2{
       color: #015db2;
       font-size: 25px;
@@ -250,11 +251,10 @@
     }
     .prev-arrow2{
       position: absolute;
-      top: -70px;
+      top: -60px;
       bottom: 0;
-      left: 0;
+      left: 30px;
       margin: auto;
-      left: 18%;
       width: 30px;
       height: 30px;
       background: url(https://pocarisweat.jp/images/home_arw_04.png);
@@ -264,7 +264,7 @@
       top: 110px;
       width: 30px;
       height: 30px;
-      right: 18%;
+      right: 30px;
       border: none;
       background: url(https://pocarisweat.jp/images/home_arw_03.png);
     }
