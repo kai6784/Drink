@@ -4,6 +4,12 @@
   font-family: Helvetica, Arial,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .slider {
   position: relative;
   min-width: 980px;
@@ -295,5 +301,16 @@
 .contents .content2 .tabs__wrapper {
   width: 980px;
   margin: 0 auto;
+  padding: 40px 0;
+}
+
+.contents .content2 .tabs__wrapper .tabs {
+  margin: 0 -50px;
+  padding: 0;
+}
+
+.contents .content2 .tabs__wrapper .tabs li {
+  float: left;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
