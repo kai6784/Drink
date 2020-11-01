@@ -281,13 +281,17 @@
         li{
           float: left;
           position: relative;
+          &:focus:after{
+            content: "";
+            display: block;
+            width: 16px;
+            height: 9px;
+            background: url(https://pocarisweat.jp/images/home_ico_tab_01.png) 0 0 no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 50%;
+          }
         }
-        // &:active{
-        //   background-color: #fff;
-        // }
-        // .tab2:active{
-        //   background-color: #fff;
-        // }
       }
     }
   }
