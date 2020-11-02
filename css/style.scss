@@ -281,11 +281,12 @@
         li{
           float: left;
           position: relative;
-          &:focus:after{
+          &.active:after{
             content: "";
             display: block;
             width: 16px;
             height: 9px;
+            bottom: -7px;
             background: url(https://pocarisweat.jp/images/home_ico_tab_01.png) 0 0 no-repeat;
             background-size: cover;
             position: absolute;

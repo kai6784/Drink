@@ -314,11 +314,12 @@
   position: relative;
 }
 
-.contents .content2 .tabs__wrapper .tabs li:focus:after {
+.contents .content2 .tabs__wrapper .tabs li.active:after {
   content: "";
   display: block;
   width: 16px;
   height: 9px;
+  bottom: -7px;
   background: url(https://pocarisweat.jp/images/home_ico_tab_01.png) 0 0 no-repeat;
   background-size: cover;
   position: absolute;
