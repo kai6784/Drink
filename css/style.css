@@ -325,4 +325,25 @@
   position: absolute;
   left: 50%;
 }
+
+.contents .content2 .content2__zone {
+  width: 980px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.contents .content2 .content2__zone .photos__wrapper {
+  margin: 0 50px;
+  padding-top: 60px;
+}
+
+.contents .content2 .content2__zone .photos__wrapper li {
+  float: left;
+  margin: 0 0 45px 40px;
+}
+
+.contents .content2 .content2__zone .photos__wrapper img {
+  width: 215px;
+  height: 155px;
+}
 /*# sourceMappingURL=style.css.map */
