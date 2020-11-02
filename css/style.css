@@ -296,12 +296,13 @@
 
 .contents .content2 {
   background-image: url(https://pocarisweat.jp/images/home_bg_01.jpg);
+  background-size: cover;
 }
 
 .contents .content2 .tabs__wrapper {
   width: 980px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 .contents .content2 .tabs__wrapper .tabs {
@@ -327,14 +328,14 @@
 }
 
 .contents .content2 .content2__zone {
-  width: 980px;
+  width: 1082px;
   margin: 0 auto;
+  padding-top: 60px;
   background: rgba(255, 255, 255, 0.8);
 }
 
 .contents .content2 .content2__zone .photos__wrapper {
   margin: 0 50px;
-  padding-top: 60px;
 }
 
 .contents .content2 .content2__zone .photos__wrapper li {
