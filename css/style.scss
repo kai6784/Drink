@@ -326,6 +326,9 @@
             background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 0 no-repeat;
             background-size: 6px auto;
           }
+          &:hover{
+            text-decoration: underline #015db2;
+          }
         }
       }
     }

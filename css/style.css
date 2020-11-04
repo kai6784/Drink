@@ -365,6 +365,11 @@
   background-size: 6px auto;
 }
 
+.contents .content2 .content2__zone .photos__wrapper li:hover {
+  -webkit-text-decoration: underline #015db2;
+          text-decoration: underline #015db2;
+}
+
 .tab__inner {
   display: none;
 }
