@@ -297,13 +297,13 @@
 .contents .content2 {
   background-image: url(https://pocarisweat.jp/images/home_bg_01.jpg);
   background-size: cover;
-  background-position: 50% -498px;
+  background-position: 50%;
+  padding: 40px 0;
 }
 
 .contents .content2 .tabs__wrapper {
   width: 980px;
   margin: 0 auto;
-  padding-top: 40px;
 }
 
 .contents .content2 .tabs__wrapper .tabs {
