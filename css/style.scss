@@ -331,6 +331,31 @@
       }
     }
   }
+  .content3{
+    padding-top: 40px;
+    .lists{
+      // float: left;
+      li{
+        width: 32%;
+        float: left;
+        padding
+        img{
+          width: 100%;
+          height: auto;
+        }
+        dl{
+          padding: 40px 60px;
+          dt{
+            margin-bottom: 30px;
+            img{
+              width: auto;
+              height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .tab__inner{

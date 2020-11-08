@@ -370,6 +370,34 @@
           text-decoration: underline #015db2;
 }
 
+.contents .content3 {
+  padding-top: 40px;
+}
+
+.contents .content3 .lists li {
+  width: 32%;
+  float: left;
+}
+
+.contents .content3 .lists li padding
+img {
+  width: 100%;
+  height: auto;
+}
+
+.contents .content3 .lists li dl {
+  padding: 40px 60px;
+}
+
+.contents .content3 .lists li dl dt {
+  margin-bottom: 30px;
+}
+
+.contents .content3 .lists li dl dt img {
+  width: auto;
+  height: 25px;
+}
+
 .tab__inner {
   display: none;
 }
