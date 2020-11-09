@@ -334,10 +334,10 @@
   .content3{
     padding-top: 40px;
     .lists{
-      // float: left;
-      .list__left{
+      .list{
         width: 33%;
         float: left;
+        background-color: #f7f8f9;
         img{
           width: 100%;
           height: auto;
@@ -349,6 +349,18 @@
             img{
               width: auto;
               height: 25px;
+            }
+          }
+          dd{
+            font-size: 13px;
+            text-align:justify;
+            color: gray;
+            background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 2px no-repeat;
+            background-size: 6px auto;
+            padding-left: 12px;
+            margin-bottom: 20px;
+            &:hover{
+              text-decoration: underline;
             }
           }
         }
@@ -369,22 +381,16 @@
               height: 25px;
             }
           }
-        }
-      }
-      .list__right{
-        width: 33%;
-        float: right;
-        img{
-          width: 100%;
-          height: auto;
-        }
-        dl{
-          padding: 40px 60px;
-          dt{
-            margin-bottom: 30px;
-            img{
-              width: auto;
-              height: 25px;
+          dd{
+            font-size: 13px;
+            text-align:justify;
+            color: gray;
+            background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 2px no-repeat;
+            background-size: 6px auto;
+            padding-left: 12px;
+            margin-bottom: 20px;
+            &:hover{
+              text-decoration: underline;
             }
           }
         }
