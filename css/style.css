@@ -374,26 +374,71 @@
   padding-top: 40px;
 }
 
-.contents .content3 .lists li {
-  width: 32%;
+.contents .content3 .lists .list__left {
+  width: 33%;
   float: left;
 }
 
-.contents .content3 .lists li padding
-img {
+.contents .content3 .lists .list__left img {
   width: 100%;
   height: auto;
 }
 
-.contents .content3 .lists li dl {
+.contents .content3 .lists .list__left dl {
   padding: 40px 60px;
 }
 
-.contents .content3 .lists li dl dt {
+.contents .content3 .lists .list__left dl dt {
   margin-bottom: 30px;
 }
 
-.contents .content3 .lists li dl dt img {
+.contents .content3 .lists .list__left dl dt img {
+  width: auto;
+  height: 25px;
+}
+
+.contents .content3 .lists .list__center {
+  width: 34%;
+  float: left;
+}
+
+.contents .content3 .lists .list__center img {
+  width: 100%;
+  height: auto;
+}
+
+.contents .content3 .lists .list__center dl {
+  padding: 40px 60px;
+}
+
+.contents .content3 .lists .list__center dl dt {
+  margin-bottom: 30px;
+}
+
+.contents .content3 .lists .list__center dl dt img {
+  width: auto;
+  height: 25px;
+}
+
+.contents .content3 .lists .list__right {
+  width: 33%;
+  float: right;
+}
+
+.contents .content3 .lists .list__right img {
+  width: 100%;
+  height: auto;
+}
+
+.contents .content3 .lists .list__right dl {
+  padding: 40px 60px;
+}
+
+.contents .content3 .lists .list__right dl dt {
+  margin-bottom: 30px;
+}
+
+.contents .content3 .lists .list__right dl dt img {
   width: auto;
   height: 25px;
 }

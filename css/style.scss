@@ -335,10 +335,45 @@
     padding-top: 40px;
     .lists{
       // float: left;
-      li{
-        width: 32%;
+      .list__left{
+        width: 33%;
         float: left;
-        padding
+        img{
+          width: 100%;
+          height: auto;
+        }
+        dl{
+          padding: 40px 60px;
+          dt{
+            margin-bottom: 30px;
+            img{
+              width: auto;
+              height: 25px;
+            }
+          }
+        }
+      }
+      .list__center{
+        width: 34%;
+        float: left;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        dl{
+          padding: 40px 60px;
+          dt{
+            margin-bottom: 30px;
+            img{
+              width: auto;
+              height: 25px;
+            }
+          }
+        }
+      }
+      .list__right{
+        width: 33%;
+        float: right;
         img{
           width: 100%;
           height: auto;
