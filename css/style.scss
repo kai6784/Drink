@@ -334,7 +334,7 @@
   .content3{
     padding-top: 40px;
     .lists{
-      .list{
+      .list__left{
         width: 33%;
         float: left;
         background-color: #f7f8f9;
@@ -368,6 +368,39 @@
       .list__center{
         width: 34%;
         float: left;
+        padding-bottom: 54px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        dl{
+          padding: 40px 60px;
+          dt{
+            margin-bottom: 30px;
+            img{
+              width: auto;
+              height: 25px;
+            }
+          }
+          dd{
+            font-size: 13px;
+            text-align:justify;
+            color: gray;
+            background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 2px no-repeat;
+            background-size: 6px auto;
+            padding-left: 12px;
+            margin-bottom: 20px;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .list__right{
+        width: 33%;
+        float: left;
+        background-color: #f7f8f9;
+        padding-bottom: 46px;
         img{
           width: 100%;
           height: auto;
@@ -412,6 +445,25 @@
     img{
       width: 40px;
       height: 40px;
+    }
+  }
+}
+.footer{
+  min-width: 980px;
+  .items1{
+    display: table;
+    width: 980px;
+    margin: 0 auto;
+    .item1{
+      display: table-cell;
+      vertical-align: bottom;
+      li{
+        float: left;
+      }
+    }
+    .company__logo{
+      display: table-cell;
+      float: right;
     }
   }
 }

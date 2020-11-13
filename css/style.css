@@ -374,31 +374,31 @@
   padding-top: 40px;
 }
 
-.contents .content3 .lists .list {
+.contents .content3 .lists .list__left {
   width: 33%;
   float: left;
   background-color: #f7f8f9;
 }
 
-.contents .content3 .lists .list img {
+.contents .content3 .lists .list__left img {
   width: 100%;
   height: auto;
 }
 
-.contents .content3 .lists .list dl {
+.contents .content3 .lists .list__left dl {
   padding: 40px 60px;
 }
 
-.contents .content3 .lists .list dl dt {
+.contents .content3 .lists .list__left dl dt {
   margin-bottom: 30px;
 }
 
-.contents .content3 .lists .list dl dt img {
+.contents .content3 .lists .list__left dl dt img {
   width: auto;
   height: 25px;
 }
 
-.contents .content3 .lists .list dl dd {
+.contents .content3 .lists .list__left dl dd {
   font-size: 13px;
   text-align: justify;
   color: gray;
@@ -408,13 +408,14 @@
   margin-bottom: 20px;
 }
 
-.contents .content3 .lists .list dl dd:hover {
+.contents .content3 .lists .list__left dl dd:hover {
   text-decoration: underline;
 }
 
 .contents .content3 .lists .list__center {
   width: 34%;
   float: left;
+  padding-bottom: 54px;
 }
 
 .contents .content3 .lists .list__center img {
@@ -449,6 +450,45 @@
   text-decoration: underline;
 }
 
+.contents .content3 .lists .list__right {
+  width: 33%;
+  float: left;
+  background-color: #f7f8f9;
+  padding-bottom: 46px;
+}
+
+.contents .content3 .lists .list__right img {
+  width: 100%;
+  height: auto;
+}
+
+.contents .content3 .lists .list__right dl {
+  padding: 40px 60px;
+}
+
+.contents .content3 .lists .list__right dl dt {
+  margin-bottom: 30px;
+}
+
+.contents .content3 .lists .list__right dl dt img {
+  width: auto;
+  height: 25px;
+}
+
+.contents .content3 .lists .list__right dl dd {
+  font-size: 13px;
+  text-align: justify;
+  color: gray;
+  background: url(https://pocarisweat.jp/shared/images/mod_ico_arwR_01.png) 0 2px no-repeat;
+  background-size: 6px auto;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+.contents .content3 .lists .list__right dl dd:hover {
+  text-decoration: underline;
+}
+
 .moveToTop {
   position: fixed;
   bottom: 0;
@@ -467,6 +507,30 @@
 .moveToTop a img {
   width: 40px;
   height: 40px;
+}
+
+.footer {
+  min-width: 980px;
+}
+
+.footer .items1 {
+  display: table;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer .items1 .item1 {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.footer .items1 .item1 li {
+  float: left;
+}
+
+.footer .items1 .company {
+  display: table-cell;
+  float: right;
 }
 
 .tab__inner {
