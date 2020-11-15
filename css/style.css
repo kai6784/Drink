@@ -216,6 +216,7 @@
 .contents {
   text-align: center;
   background-color: #fff;
+  position: relative;
 }
 
 .contents .content1 {
@@ -372,6 +373,8 @@
 
 .contents .content3 {
   padding-top: 40px;
+  width: 100%;
+  height: 600px;
 }
 
 .contents .content3 .lists .list__left {
@@ -454,7 +457,7 @@
   width: 33%;
   float: left;
   background-color: #f7f8f9;
-  padding-bottom: 46px;
+  padding-bottom: 33px;
 }
 
 .contents .content3 .lists .list__right img {
@@ -489,7 +492,7 @@
   text-decoration: underline;
 }
 
-.moveToTop {
+.moveToTop .fixed {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -497,16 +500,20 @@
   z-index: 9999;
 }
 
-.moveToTop a {
+.moveToTop .fixed a {
   position: absolute;
   display: block;
   bottom: 20px;
   right: 20px;
 }
 
-.moveToTop a img {
+.moveToTop .fixed a img {
   width: 40px;
   height: 40px;
+}
+
+.moveToTop .static {
+  position: static;
 }
 
 .footer {
@@ -516,21 +523,24 @@
 .footer .items1 {
   display: table;
   width: 980px;
+  height: 75px;
   margin: 0 auto;
 }
 
 .footer .items1 .item1 {
   display: table-cell;
   vertical-align: bottom;
+  padding-bottom: 15px;
 }
 
 .footer .items1 .item1 li {
   float: left;
 }
 
-.footer .items1 .company {
+.footer .items1 .company__logo {
   display: table-cell;
-  float: right;
+  vertical-align: bottom;
+  text-align: right;
 }
 
 .tab__inner {
