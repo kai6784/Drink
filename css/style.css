@@ -606,6 +606,7 @@
   display: table-cell;
   text-align: right;
   padding-right: 10px;
+  vertical-align: bottom;
 }
 
 .footer .items2 small {
