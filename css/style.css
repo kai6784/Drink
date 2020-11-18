@@ -501,10 +501,6 @@
   z-index: 9999;
 }
 
-.contents .moveToTop.static {
-  position: static;
-}
-
 .contents .moveToTop a {
   position: absolute;
   display: block;
@@ -515,6 +511,10 @@
 .contents .moveToTop a img {
   width: 40px;
   height: 40px;
+}
+
+.contents.static {
+  position: static;
 }
 
 .footer {
@@ -547,6 +547,74 @@
 
 .footer .items1 .company__logo img {
   cursor: pointer;
+}
+
+.footer .items2 {
+  display: table;
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 2px 0 1px;
+}
+
+.footer .items2 .item2 {
+  display: table-cell;
+  padding-left: 10px;
+}
+
+.footer .items2 .item2 li {
+  float: left;
+  display: block;
+  cursor: pointer;
+}
+
+.footer .items2 .item2 li a {
+  display: block;
+  width: 115px;
+  height: 19px;
+  text-indent: -9999px;
+  background: url(https://pocarisweat.jp/footer/images/footmenu05.png) 50% 50% no-repeat;
+}
+
+.footer .items2 .item2 li + li {
+  border-left: 1px solid #a0b6d7;
+}
+
+.footer .items2 .item2 li + li a {
+  width: 141px;
+  background: url(https://pocarisweat.jp/footer/images/footmenu06.png) 50% 50% no-repeat;
+}
+
+.footer .items2 .item2 li + li + li {
+  border-left: none;
+}
+
+.footer .items2 .item2 li + li + li a {
+  width: 146px;
+  background: url(https://pocarisweat.jp/footer/images/footmenu07.png) 50% 50% no-repeat;
+}
+
+.footer .items2 .item2 li + li + li + li {
+  border-left: 1px solid #a0b6d7;
+}
+
+.footer .items2 .item2 li + li + li + li a {
+  width: 81px;
+  background: url(https://pocarisweat.jp/footer/images/footmenu08.png) 50% 50% no-repeat;
+}
+
+.footer .items2 .copy {
+  display: table-cell;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.footer .items2 small {
+  display: inline-block;
+  text-indent: -9999px;
+  text-align: left;
+  width: 184px;
+  height: 19px;
+  background: url(https://pocarisweat.jp/footer/images/footer_copyright.gif) 50% 50% no-repeat;
 }
 
 .tab__inner {
