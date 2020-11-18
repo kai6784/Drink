@@ -204,6 +204,7 @@
   text-align: center;
   background-color: #fff;
   position: relative;
+  overflow: hidden;
   .content1{
     width: 980px;
     margin: 0 auto;
@@ -433,12 +434,15 @@
       }
     }
   }
-  .moveToTop .fixed{
+  .moveToTop{
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
     z-index: 9999;
+    &.static{
+      position: static;
+    }
     a{
       position: absolute;
       display: block;
@@ -449,9 +453,6 @@
         height: 40px;
       }
     }
-  }
-  .moveToTop .static{
-    position: static;
   }
 }
 
@@ -486,12 +487,16 @@
       padding-bottom: 15px;
       li{
         float: left;
+        cursor: pointer;
       }
     }
     .company__logo{
       display: table-cell;
       vertical-align: bottom;
       text-align: right;
+      img{
+        cursor: pointer;
+      }
     }
   }
 }

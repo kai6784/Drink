@@ -217,6 +217,7 @@
   text-align: center;
   background-color: #fff;
   position: relative;
+  overflow: hidden;
 }
 
 .contents .content1 {
@@ -492,7 +493,7 @@
   text-decoration: underline;
 }
 
-.contents .moveToTop .fixed {
+.contents .moveToTop {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -500,24 +501,20 @@
   z-index: 9999;
 }
 
-.contents .moveToTop .fixed a {
+.contents .moveToTop.static {
+  position: static;
+}
+
+.contents .moveToTop a {
   position: absolute;
   display: block;
   bottom: 20px;
   right: 20px;
 }
 
-.contents .moveToTop .fixed a img {
+.contents .moveToTop a img {
   width: 40px;
   height: 40px;
-}
-
-.contents .moveToTop .static {
-  position: static;
-}
-
-.moveToTop .static {
-  position: static;
 }
 
 .footer {
@@ -539,12 +536,17 @@
 
 .footer .items1 .item1 li {
   float: left;
+  cursor: pointer;
 }
 
 .footer .items1 .company__logo {
   display: table-cell;
   vertical-align: bottom;
   text-align: right;
+}
+
+.footer .items1 .company__logo img {
+  cursor: pointer;
 }
 
 .tab__inner {
