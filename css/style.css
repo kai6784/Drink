@@ -257,6 +257,7 @@
 
 .contents .content1 .box__wrapper .box__slider li {
   float: left;
+  cursor: pointer;
 }
 
 .contents .content1 .box__wrapper .box__slider li img {
