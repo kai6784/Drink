@@ -26,6 +26,9 @@
       width: 980px;
       height: 80px;
       margin: 0 auto;
+      @media screen {
+        
+      }
       &__logo{
         float: left;
         width: 160px;
@@ -80,6 +83,9 @@
               background-position: -672px 0;
             }
           }
+        }
+        &__burger{
+          position: absolute;
         }
       }
     }

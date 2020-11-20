@@ -83,6 +83,10 @@
   background-position: -672px 0;
 }
 
+.slider .header__parts__menu__burger {
+  position: absolute;
+}
+
 .slider .header__news {
   background-color: #091E4E;
 }
