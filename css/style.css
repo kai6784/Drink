@@ -414,6 +414,7 @@
   background-size: 6px auto;
   padding-left: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .contents .content3 .lists .list__left dl dd:hover {
@@ -452,6 +453,7 @@
   background-size: 6px auto;
   padding-left: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .contents .content3 .lists .list__center dl dd:hover {
@@ -491,6 +493,7 @@
   background-size: 6px auto;
   padding-left: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .contents .content3 .lists .list__right dl dd:hover {
