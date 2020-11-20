@@ -335,6 +335,7 @@
 
 .contents .content2 .tabs__wrapper .tabs li img {
   vertical-align: bottom;
+  cursor: pointer;
 }
 
 .contents .content2 .content2__zone {
@@ -353,6 +354,7 @@
   height: 185px;
   float: left;
   margin: 0 0 45px 40px;
+  cursor: pointer;
 }
 
 .contents .content2 .content2__zone .photos__wrapper li img {
